@@ -27,3 +27,19 @@ for key, value in config.items():
     print(key, "=", value)
 
 
+# Nested Dictionary
+students = {
+    "student1": {
+        "name": "Alice",
+        "age": 20
+    },
+    "student2": {
+        "name": "Bob",
+        "age": 22
+    }
+}   
+for student_id, details in students.items():
+    print(student_id)
+    for key, value in details.items():
+        print(f"  {key}: {value}")
+        

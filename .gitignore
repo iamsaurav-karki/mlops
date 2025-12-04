@@ -1,0 +1,87 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.sqlite3
+Flask/venv
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# -------------------------
+# Virtual Environment
+# -------------------------
+mlops/
+venv/
+.Venv/
+ENV/
+env/
+.venv/
+
+# -------------------------
+# OS / Editor Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional to ignore)
+.vscode/
+*.code-workspace
+
+# -------------------------
+# Environment / Credentials
+# -------------------------
+*.env
+.env.*
+credentials.json
+secret.json
+token.json
+
+# -------------------------
+# Build / Packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Flask / Temp Files
+# -------------------------
+instance/
+.cache/
+*.tmp
+
+# -------------------------
+# Machine Learning / Models
+# -------------------------
+/sklearn/
+/sk/
+/modules/
+
+# If these directories contain code you want to track, remove them ↑
+
+# -------------------------
+# Pip / Virtualenv Metadata
+# -------------------------
+pyvenv.cfg
+pip-wheel-metadata/
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+*.out
+
+# -------------------------
+# Backup Files
+# -------------------------
+*~
+*.bak
+*.swp
+*.swo

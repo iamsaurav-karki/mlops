@@ -25,3 +25,22 @@ try:
         print(next(iterator))
 except StopIteration:
     print("There are no more elements to iterate.")
+
+# String Iterator
+my_string = "Hello"
+string_iterator = iter(my_string)
+# Iterating using next()
+try:
+    while True:
+        value = next(string_iterator)
+        print(value)
+except StopIteration:
+    print("Iteration finished.")
+
+# Another example with try-except
+string_iterator = iter(my_string)
+try:
+    while True:
+        print(next(string_iterator))
+except StopIteration:
+    print("There are no more elements to iterate.")

@@ -1,0 +1,12 @@
+Memory usage had been creeping up for months. We kept throwing more RAM at it. Then came the invoice: $4,800 per month for something that stored 50MB of actual data.
+
+That morning changed everything.
+
+The Breaking Point
+We were using Redis for one thing: caching API responses and session tokens. Nothing fancy. No pub/sub. No sorted sets. Just GET and SET with TTL.
+
+Looking at our usage patterns made me angry. We were paying enterprise prices for what amounted to a glorified HashMap with expiration. The overhead was insane. The complexity was unnecessary. The operational burden was killing our small team.
+
+So I did what any sleep-deprived engineer would do at 3 AM.
+
+I opened a new Go file and started typing.

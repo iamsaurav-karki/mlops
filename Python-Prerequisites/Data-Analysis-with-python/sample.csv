@@ -1,0 +1,12 @@
+id,name,age,gender,department,salary,experience_years
+1,Saurav,22,Male,IT,45000,1
+2,Aayush,24,Male,Finance,55000,2
+3,Nisha,23,Female,HR,40000,1
+4,Prakash,28,Male,Marketing,60000,4
+5,Anita,26,Female,IT,52000,3
+6,Bikash,30,Male,Sales,65000,6
+7,Rita,22,Female,HR,39000,0
+8,Samir,35,Male,Management,80000,10
+9,Kiran,29,Male,IT,70000,5
+10,Pooja,25,Female,Design,48000,2
+

@@ -82,6 +82,7 @@ arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print("Original 2D Array:\n", arr_2d)
 print("Element at row 1, column 2:", arr_2d[1, 2])  # Output: 6 
 print("First two rows and first two columns:\n", arr_2d[0:2, 0:2])
+
 # Modifying a sub-array
 arr_2d[0:2, 0:2] = 0
 print("Modified 2D Array:\n", arr_2d)   

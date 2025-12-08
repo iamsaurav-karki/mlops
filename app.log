@@ -1,0 +1,5 @@
+2025-12-08 16:24:41 - INFO - Logging configured with custom format
+2025-12-08 16:24:41 - ERROR - This is an error message with timestamp
+2025-12-08 16:24:41 - DEBUG - This is a debug message with timestamp
+2025-12-08 16:24:41 - WARNING - This is a warning message with timestamp
+2025-12-08 16:24:41 - CRITICAL - This is a critical message with timestamp

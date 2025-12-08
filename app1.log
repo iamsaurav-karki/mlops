@@ -1,0 +1,7 @@
+2025-12-08 16:47:35 - DEBUG - Adding 10 and 5
+2025-12-08 16:47:35 - INFO - Addition Result: 15
+2025-12-08 16:47:35 - DEBUG - Subtracting 5 from 10
+2025-12-08 16:47:35 - INFO - Subtraction Result: 5
+2025-12-08 16:47:35 - DEBUG - Multiplying 10 and 5
+2025-12-08 16:47:35 - INFO - Multiplication Result: 50
+2025-12-08 16:47:35 - ERROR - Attempted to divide by zero

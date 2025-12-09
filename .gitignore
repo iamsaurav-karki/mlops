@@ -26,6 +26,9 @@ mlflow-starter/.venv/
 mlflow-starter/python==3.13
 mlflow-starter/python3.13
 mlflow-starter/mlflow.db 
+mlartifacts/
+mlflow.db 
+
 # -------------------------
 # OS / Editor Files
 # -------------------------

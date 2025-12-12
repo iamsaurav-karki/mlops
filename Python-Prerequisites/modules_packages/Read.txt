@@ -1,0 +1,2 @@
+In Python, Modules and Packages help organize and reuse code.
+Those packages have inbuilt functions which we can just import and use it. 

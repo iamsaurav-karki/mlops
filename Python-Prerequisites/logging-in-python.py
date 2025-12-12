@@ -28,3 +28,4 @@ logging.error("This is an error message with timestamp")
 logging.debug("This is a debug message with timestamp")
 logging.warning("This is a warning message with timestamp")
 logging.critical("This is a critical message with timestamp")
+

@@ -28,7 +28,7 @@ mlflow-starter/python3.13
 mlflow-starter/mlflow.db 
 mlartifacts/
 mlflow.db 
-
+mlruns/
 # -------------------------
 # OS / Editor Files
 # -------------------------
